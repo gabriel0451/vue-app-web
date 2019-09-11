@@ -1,0 +1,259 @@
+/* 主页 */
+
+.home {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url('../images/bg@3x.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.home .zhuanqu {
+    width: 1rem;
+    height: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 0.5rem;
+}
+
+.home .zhuanqu img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .renwu {
+    width: 1rem;
+    height: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 1.8rem;
+}
+
+.home .renwu img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .shuihu {
+    background-image: url('../images/shuihubeijing@3x.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 0.5rem;
+    text-align: center;
+}
+
+.home .shuihu .pictxt {
+    margin: 1.1rem auto 0 auto;
+    font-size: 0.26rem;
+    color: #fff;
+}
+
+.home .shuihu .pictrue {
+    position: fixed;
+    bottom: 1.4rem;
+    right: 0.6rem;
+    width: 1.4rem;
+    height: 1.2rem;
+}
+
+.home .shuihu .pictrue img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .xiaoshu {
+    width: 4rem;
+    position: fixed;
+    bottom: 4.5rem;
+}
+
+.home .xiaoshu img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .cu-progress {
+    overflow: hidden;
+    height: 0.2rem;
+    background-color: #bfd378;
+    width: 100%;
+    border-radius: 0.2rem;
+    bottom: 4rem;
+    width: 4rem;
+    border: 1px solid #fff !important;
+    position: fixed;
+}
+
+.home .cu-progress .bg-color {
+    width: 0;
+    height: 100%;
+    transition: width 0.6s ease;
+    -webkit-transition: width 0.6s ease;
+    -moz-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    border-radius: 0.2rem;
+    background-image: linear-gradient(to right, #bfd378 0%, #9a8afd 100%);
+    background-image: -webkit-linear-gradient(to right, #bfd378 0%, #9a8afd 100%);
+    background-image: -moz-linear-gradient(to right, #bfd378 0%, #9a8afd 100%);
+}
+
+.home .sign-btn {
+    bottom: 2.5rem;
+    width: 4rem;
+    position: fixed;
+}
+
+.home .sign-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .sign-mingtian-btn {
+    background-image: url('../images/mingriqiandao.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 4rem;
+    height: 1rem;
+    bottom: 2.5rem;
+    position: fixed;
+}
+
+.home .sign-mingtian-btn .text{
+    font-size: 0.3rem;
+    color: #fff;
+    margin-top: -0.1rem;
+}
+
+.home .jiaoshui {
+    width: 1rem;
+    height: 1rem;
+    position: fixed;
+    top: 40%;
+    right: 20%;
+    z-index: 99;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    opacity: 0;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+
+.home .jiaoshui.on {
+    opacity: 1;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.home .jiaoshui .pictrue {
+    width: 1rem;
+    height: 1rem;
+}
+
+.home .jiaoshui .pictrue img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .shui {
+    top: 47%;
+    right: 32%;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: fixed;
+    bottom: 2.2rem;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    opacity: 0;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.home .shui.on {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.home .shui img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .header {
+    width: 4rem;
+    height: 1.3rem;
+    position: fixed;
+    top: 0;
+    left: 1.8rem;
+}
+
+.home .header img {
+    width: 100%;
+    height: 100;
+}
+
+.water-drop {
+    background-color: #fff;
+}
+
+.water-drop .banner {
+    background-image: url('../images/shuidibanner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.water-drop .banner .pictxt {
+    width: 4rem;
+    height: 0.5rem;
+}
+
+.water-drop .banner .pictxt .txt {
+    color: #75ab3a;
+    font-size: 0.25rem;
+    font-weight: bold;
+    margin-top: 0.1rem;
+}
+
+.water-drop .banner .pictxt .picture {
+    width: 1.2rem;
+    height: 0.3rem;
+    margin-top: 0.2rem;
+}
+
+.water-drop .banner .pictxt .picture img {
+    width: 100%;
+    height: 100;
+}
